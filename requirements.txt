@@ -1,0 +1,23 @@
+# AI Pension Benefits Optimizer - Requirements
+# Core Streamlit and data processing
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Interactive visualizations
+plotly>=5.15.0
+
+# Data manipulation and analysis
+dataclasses>=0.8  # Usually built-in with Python 3.7+
+
+# Additional utilities (if needed for future enhancements)
+datetime  # Built-in Python module
+typing    # Built-in Python module
+math      # Built-in Python module
+
+# Optional: For enhanced functionality
+# scipy>=1.11.0        # For advanced statistical calculations
+# matplotlib>=3.7.0    # Alternative plotting library
+# seaborn>=0.12.0      # Statistical visualizations
+# openpyxl>=3.1.0      # Excel file handling
+# fpdf>=2.7.0          # PDF report generation
