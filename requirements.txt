@@ -3,3 +3,4 @@ pandas
 numpy
 matplotlib
 plotly
+cryptography==42.0.5
