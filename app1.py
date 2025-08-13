@@ -10,7 +10,7 @@ import time
 from cryptography.fernet import Fernet
 import io
 
-st.set_page_config(page_title="AI Pension Benefits Optimizer", page_icon="💰", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="PensionWise.AI", page_icon="💰", layout="wide", initial_sidebar_state="expanded")
 
 st.markdown("""
 <style>
@@ -586,3 +586,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
