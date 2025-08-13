@@ -305,7 +305,7 @@ def fallback_llm_response(prompt: str) -> str:
     return "I can explain results, convert numbers to plain language, or walk through calculations step-by-step. Try asking: 'Explain why hybrid is recommended' or 'Show calculation steps for lump sum projection'."
 
 def main():
-    st.markdown('<h1 class="main-header">🎯 AI Pension Benefits Optimizer</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🎯 PensionWise.AI  </h1>', unsafe_allow_html=True)
     optimizer = PensionOptimizer()
     with st.sidebar:
         st.header("👤 Your Profile")
@@ -586,4 +586,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
